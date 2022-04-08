@@ -1,9 +1,99 @@
-// @font-face {
-//   font-family: 'DMSans-Bold';
-//   font-weight: 700;
-//   font-style: normal;
-//   src: local('DMSans-Bold'),
-//     url('../fonts/DMSans-Bold.woff2') format('woff2'),
-//     url('../fonts/DMSans-Bold.woff') format('woff');
-//   font-display: swap;
-// }
+@font-face {
+  font-family: 'SofiaProBlack';
+  font-weight: 900;
+  font-style: normal;
+  src: local('SofiaProBlack'),
+    url('../fonts/SofiaProBlack.woff2') format('woff2'),
+    url('../fonts/SofiaProBlack.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SofiaProBold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('SofiaProBold'),
+    url('../fonts/SofiaProBold.woff2') format('woff2'),
+    url('../fonts/SofiaProBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SofiaProMedium';
+  font-weight: 500;
+  font-style: normal;
+  src: local('SofiaProMedium'),
+    url('../fonts/SofiaProMedium.woff2') format('woff2'),
+    url('../fonts/SofiaProMedium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SofiaProRegular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('SofiaProRegular'),
+    url('../fonts/SofiaProRegular.woff2') format('woff2'),
+    url('../fonts/SofiaProRegular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SofiaProSemiBold';
+  font-weight: 600;
+  font-style: normal;
+  src: local('SofiaProSemiBold'),
+    url('../fonts/SofiaProSemiBold.woff2') format('woff2'),
+    url('../fonts/SofiaProSemiBold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gerbera-Black';
+  font-weight: 900;
+  font-style: normal;
+  src: local('Gerbera-Black'),
+    url('../fonts/Gerbera-Black.woff2') format('woff2'),
+    url('../fonts/Gerbera-Black.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gerbera-Bold';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Gerbera-Black'),
+    url('../fonts/Gerbera-Bold.woff2') format('woff2'),
+    url('../fonts/Gerbera-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gerbera-Light';
+  font-weight: 300;
+  font-style: normal;
+  src: local('Gerbera-Light'),
+    url('../fonts/Gerbera-Light.woff2') format('woff2'),
+    url('../fonts/Gerbera-Light.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gerbera-Medium';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Gerbera-Medium'),
+    url('../fonts/Gerbera-Medium.woff2') format('woff2'),
+    url('../fonts/Gerbera-Medium.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gerbera-Regular';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Gerbera-Regular'),
+    url('../fonts/Gerbera-Regular.woff2') format('woff2'),
+    url('../fonts/Gerbera-Regular.woff') format('woff');
+  font-display: swap;
+}
