@@ -4,5 +4,207 @@
 @import 'libs';
 @import 'global';
 
+.header{
+  padding-top: 27px;
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+  }
+  &__title{
+    @extend %gerbera-black-900;
+    max-width: 1050px;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: $title;
+    margin: 0 auto;
+  }
+  &__title--wildberries{
+    color: #BE20A5;
+  }
+  &__title--ozon{
+    color: #0069FF;
+  }
+}
+
+.nav{
+  margin-left: auto;
+  padding-top: 12px;
+}
+
+.menu__list{
+  display: flex;
+  
+  &-item{
+    margin-right: 48px;
+  }
+  &-link{
+    @extend %sofiaproregular-400;
+    color: $text;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+  }
+  &-link--active{
+    color: $accent;
+  }
+}
+
+.menu__btn{
+  padding-top: 8px;
+}
+
+.menu__link-btn{
+  @extend %sofiaproregular-400;
+  border: 1px solid $accent;
+  border-radius: 100px;
+  padding: 10px 24px 12px;
+  background: transparent;
+  color: $accent;
+}
+
+.benefits{
+  padding: 35px 0 215px;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__img{
+    border-radius: 5px;
+    margin-right: 33px;
+  }
+  &__info-box{
+    margin-left: 22px;
+    margin-bottom: 18px;
+  }
+  &__info-item{
+    margin-bottom: 27px;
+    &:last-child{
+      margin-bottom: 45px;
+    }
+  }
+  &__info-title{
+    @extend %gerbera-bold-700;
+    font-size: 18px;
+    line-height: 120%;
+    color: $title;
+    margin-bottom: 8px;
+  }
+  &__info-text{
+    line-height: 130%;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  &__box{
+    padding: 24px 24px 40px 24px;
+    background-color: $accent;
+    border-radius: 15px;
+  }
+  &__box-title{
+    @extend %gerbera-bold-700;
+    line-height: 120%;
+    color: $white;
+    font-size: 18px;
+    margin-bottom: 12px;
+    max-width: 180px;
+  }
+  &__box-text{
+    @extend %sofiaproregular-400;
+    font-size: 14px;
+    line-height: 130%;
+    color: $white;
+    margin-bottom: 20px;
+  }
+  &__box-link{
+    @extend %sofiaproregular-400;
+    padding: 12px 50px;
+    background-color: #f6fbf8;
+    border-radius: 8px;
+    color: $accent;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+.features{
+  padding-bottom: 150px;
+  position: relative;
+  &__title{
+    @extend %gerbera-black-900;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.3px;
+    color: $title;
+    max-width: 630px;
+    margin-bottom: 60px;
+  }
+  &__items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 58px 36px;
+    max-width: 780px;
+  }
+  &__item-title{
+    @extend %gerbera-black-900;
+    color: $title;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 8px;
+  }
+  &__item-text{
+    @extend %gerbera-regular-400;
+    font-size: 20px;
+    line-height: 174%;
+    color: $text;
+  }
+  &__img{
+    position: absolute;
+    margin-left: auto;
+    right: 0;
+    top: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @import 'media';
