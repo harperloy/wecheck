@@ -1,5 +1,8 @@
-// $deffault: #243f4d;
-// $title: #191919;
+$accent: #219653;
+$text: #6e6e6e;
+$title: #333d37;
+$black: #111111;
+$white: #fff;
 
 // %checkbox-hidden {
 //   width: 1px;
@@ -9,7 +12,52 @@
 //   position: absolute;
 // }
 
-// %dmsans-700 {
-//   font-family: 'DMSans-Bold', sans-serif;
-//   font-weight: 700;
-// }
+%sofiaproblack-900{
+  font-family: 'SofiaProBlack', sans-serif;
+  font-weight: 900;
+}
+
+%sofiaprobold-700{
+  font-family: 'SofiaProBold', sans-serif;
+  font-weight: 700;
+}
+
+%sofiapromedium-500{
+  font-family: 'SofiaProMedium', sans-serif;
+  font-weight: 500;
+}
+
+%sofiaproregular-400{
+  font-family: 'SofiaProRegular', sans-serif;
+  font-weight: 400;
+}
+
+%sofiaprosemibold-600{
+  font-family: 'SofiaProSemiBold', sans-serif;
+  font-weight: 600;
+}
+
+%gerbera-black-900{
+  font-family: 'Gerbera-Black', sans-serif;
+  font-weight: 900;
+}
+
+%gerbera-bold-700{
+  font-family: 'Gerbera-Bold', sans-serif;
+  font-weight: 700;
+}
+
+%gerbera-light-300{
+  font-family: 'Gerbera-Light', sans-serif;
+  font-weight: 300;
+}
+
+%gerbera-medium-500{
+  font-family: 'Gerbera-Medium', sans-serif;
+  font-weight: 500;
+}
+
+%gerbera-regular-400{
+  font-family: 'Gerbera-Regular', sans-serif;
+  font-weight: 400;
+}

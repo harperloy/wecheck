@@ -1,0 +1,22 @@
+body{
+  font-size: 14px;
+  color: $text;
+  @extend %gerbera-regular-400;
+}
+
+.container{
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  @extend %gerbera-regular-400;
+  cursor: pointer;
+  font-size: 18px;
+  color: $white;
+}
