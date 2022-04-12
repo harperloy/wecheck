@@ -14,9 +14,20 @@ button{
   cursor: pointer;
 }
 
+.title{
+  @extend %gerbera-black-900;
+  color: $title;
+  font-size: 36px;
+  letter-spacing: -0.3px;
+}
+
 a{
   @extend %gerbera-regular-400;
   cursor: pointer;
   font-size: 18px;
   color: $white;
+}
+
+.hidden{
+  display: none;
 }

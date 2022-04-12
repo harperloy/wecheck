@@ -12,13 +12,9 @@
     margin-bottom: 45px;
   }
   &__title{
-    @extend %gerbera-black-900;
     max-width: 1050px;
-    font-size: 36px;
     line-height: 150%;
     text-align: center;
-    letter-spacing: -0.3px;
-    color: $title;
     margin: 0 auto;
   }
   &__title--wildberries{
@@ -132,11 +128,7 @@
   padding-bottom: 150px;
   position: relative;
   &__title{
-    @extend %gerbera-black-900;
-    font-size: 36px;
     line-height: 53px;
-    letter-spacing: -0.3px;
-    color: $title;
     max-width: 630px;
     margin-bottom: 60px;
   }
@@ -167,10 +159,98 @@
   }
 }
 
+.slider{
+  padding-bottom: 150px;
+  &__item-titlebox{
+    min-height: 290px;
+    max-width: 235px;
+  }
+  &__title{
+    line-height: 150%;
+    max-width: 660px;
+    margin-bottom: 60px;
+  }
+  &__item{
+    max-width: 282px;
+    background-color: $accent;
+    padding: 27px 23px 24px 24px;
+    border-radius: 8px;
+    max-height: 360px;
+  }
+  &__item-titlebox{
+    max-height: 100px;
+  }
+  &__item-title{
+    @extend %gerbera-bold-700;
+    font-size: 24px;
+    color: $white;
+    max-width: 235px;
+    line-height: 140%;
+    padding-bottom: 222px;
+  }
+  &__item-link{
+    font-size: 16px;
+    line-height: 12px;
+    opacity: 0.8;
+  }
+  &__item-text{
+    margin-top: -95px;
+    opacity: 0;
+  }
+  &__item-link{
+    padding-right: 17px;
+    position: relative;
+    &::after{
+      content: '';
+      position: absolute;
+      background-image: url('../images/arrows/arrow-up.svg');
+      width: 9px;
+      height: 6px;
+      right: 0;
+      top: 10px;
+    }
+    &:hover{
+      opacity: 0;
+    }
+  }
+}
 
+.slick-arrow{
+  background-color: #F1FCF6;
+  border: none;
+  font-size: 0;
+  position: absolute;
+  top: -110px;
+  right: 65px;
+}
 
+.slick-prev,
+.slick-next{
+  transition: all .3s;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  &:hover{
+    background-color: $accent;
+  }
+}
 
+.slick-prev{
+  background-image: url('../images/arrows/arrow-left.svg');
+  right: 120px;
+  &:hover{
+    background-image: url('../images/arrows/arrow-left-active.svg');
+  }
+}
 
+.slick-next{
+  background-image: url('../images/arrows/arrow-right.svg');
+  &:hover{
+    background-image: url('../images/arrows/arrow-right-active.svg');
+  }
+}
 
 
 
