@@ -252,6 +252,42 @@
   }
 }
 
+.info{
+  background-color: #F1FCF6;
+  padding-bottom: 165px;
+  &__title{
+    padding-top: 135px;
+    text-align: center;
+    margin-bottom: 115px;
+  }
+  &__items{
+    display: grid;
+    grid-gap: 105px 60px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  &__item{
+    max-width: 356px;
+  }
+  &__item-img{
+    margin: 0 auto;
+  }
+  &__item-title{
+    @extend %gerbera-black-900;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: $title;
+    margin-bottom: 8px;
+  }
+  &__item-text{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  }
+}
+
 
 
 
