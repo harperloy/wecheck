@@ -534,6 +534,48 @@
 
 
 
+.form{
+  padding: 58px 0 48px;
+  background-color: $accent;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__text{
+    font-size: 24px;
+    line-height: 40px;
+    color: $white;
+    max-width: 485px;
+  }
+  &__content{
+
+  }
+  &__input{
+    border: none;
+    background-color: transparent;
+    width: 335px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $white;
+    outline: none;
+    color: $white;
+    margin-right: 30px;
+    &::placeholder{
+      color: $white;
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+  &__btn{
+    background-color: #d1f8e2;
+    border-radius: 333px;
+    padding: 17px 28px;
+  }
+}
+
+
+
+
 
 
 
