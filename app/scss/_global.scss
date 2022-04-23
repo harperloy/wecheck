@@ -11,7 +11,13 @@ body{
 }
 
 button{
+  @extend %gerbera-regular-400;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 100%;
+  color: $accent;
   cursor: pointer;
+  border: none;
 }
 
 .title{
@@ -25,9 +31,4 @@ a{
   @extend %gerbera-regular-400;
   cursor: pointer;
   font-size: 18px;
-  color: $white;
-}
-
-.hidden{
-  display: none;
 }
