@@ -534,6 +534,118 @@
 
 
 
+.form{
+  padding: 58px 0 48px;
+  background-color: $accent;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__text{
+    font-size: 24px;
+    line-height: 40px;
+    color: $white;
+    max-width: 485px;
+  }
+  &__input{
+    border: none;
+    background-color: transparent;
+    width: 335px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $white;
+    outline: none;
+    color: $white;
+    margin-right: 30px;
+    &::placeholder{
+      color: $white;
+      font-size: 20px;
+      line-height: 20px;
+    }
+  }
+  &__btn{
+    background-color: #d1f8e2;
+    border-radius: 333px;
+    padding: 17px 28px;
+  }
+}
+
+.footer{
+  background-color: $title;
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 100px 0;
+    border-bottom: 1px solid rgba($white, 0.1);
+  }
+  &__contacts{
+    max-width: 325px;
+    @extend %gerbera-regular-400;
+    color: $white;
+  }
+  &__contacts-title{
+    font-size: 18px;
+    @extend %gerbera-bold-700;
+    line-height: 40px;
+  }
+  &__contacts-text{
+    font-size: 16px;
+    line-height: 29px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+  }
+  &__contacts-link{
+    @extend %gerbera-regular-400;
+    font-size: 16px;
+    line-height: 29px;
+    color: $white;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  &__item-link{
+    color: $white;
+    font-size: 18px;
+    line-height: 36px;
+    border-bottom: 1px solid $white;
+    padding-bottom: 0px;
+  }
+  &__socials-box{
+    display: flex;
+    margin-bottom: 15px;
+  }
+  &__socials-link + .footer__socials-link{
+    margin-left: 20px;
+  }
+  &__socials-text{
+    @extend %gerbera-bold-700;
+    max-width: 165px;
+    font-size: 18px;
+    line-height: 29px;
+    color: $white;
+  }
+  &__bottom{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    line-height: 22px;
+    color: #9f9f9f;
+  }
+  &__bottom-license,
+  &__bottom-privacy{
+    margin-left: 32px;
+    line-height: 22px;
+    color: #9f9f9f;
+    font-size: 14px;
+    border-bottom: 1px solid #9f9f9f;
+    padding-bottom: 0;
+  }
+}
+
+
+
 
 
 
