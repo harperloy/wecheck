@@ -645,7 +645,6 @@
   background-image: url('../images/preview-bg.png');
   background-repeat: no-repeat;
   background-position: right center;
-  margin-top: 175px;
   padding: 140px 0 180px;
   background-color: #f1fcf6;
   &__title{
@@ -688,6 +687,57 @@
   }
 }
 
+.accordion{
+  padding: 120px 0 175px;
+  &__title{
+    @extend %gerbera-medium-500;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 50px;
+  }
+  &__item{
+    font-size: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e7ebeb;
+  }
+  &__item-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  &__item-label{
+    @extend %gerbera-bold-700;
+    display: block;
+    line-height: 27px;
+    color: $accent;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  &__item-label--arrow::after{
+    content: '';
+    position: absolute;
+    background-image: url('../images/arrows/questions-arrow.svg');
+    width: 20px;
+    height: 11px;
+    top: 0;
+    right: 0;
+  }
+  &__item-text{
+    line-height: 35px;
+    display: none;
+    color: $black;
+    max-width: 800px;
+    padding-bottom: 15px;
+  }
+  &__item-input:checked ~ .accordion__item-text{
+    display: block;
+  }
+  &__item-input:checked + .accordion__item-label--arrow::after{
+    transform: rotate(180deg);
+  }
+}
 
 
 
