@@ -3,7 +3,6 @@ $(function () {
     slidesToShow: 6,
     slidesToScroll: 1,
     centerMode: true,
-    draggable: false
   });
 
   $('.rates__box-btn').on('click', function(e){

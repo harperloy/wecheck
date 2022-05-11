@@ -42,6 +42,10 @@
     font-size: 18px;
     line-height: 28px;
     letter-spacing: -0.3px;
+    transition: all .3s;
+    &:hover{
+      color: $accent;
+    }
   }
   &-link--active{
     color: $accent;
@@ -172,7 +176,7 @@
   &__item{
     max-width: 282px;
     background-color: $accent;
-    padding: 27px 23px 24px 24px;
+    padding: 35px 23px 35px 24px;
     border-radius: 8px;
     max-height: 360px;
   }
@@ -185,33 +189,13 @@
     color: $white;
     max-width: 235px;
     line-height: 140%;
-    padding-bottom: 222px;
-  }
-  &__item-link{
-    font-size: 16px;
-    line-height: 12px;
-    opacity: 0.8;
-    color: $white;
+    padding-bottom: 80px;
   }
   &__item-text{
-    margin-top: -95px;
-    opacity: 0;
-  }
-  &__item-link{
-    padding-right: 17px;
-    position: relative;
-    &::after{
-      content: '';
-      position: absolute;
-      background-image: url('../images/arrows/arrow-up.svg');
-      width: 9px;
-      height: 6px;
-      right: 0;
-      top: 10px;
-    }
-    &:hover{
-      opacity: 0;
-    }
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.9;
+    color: $white;
   }
 }
 
